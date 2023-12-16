@@ -13,18 +13,19 @@ export class NavBar extends Component {
                     <img className={"h-7 w-7 m-1 pt-0.1 "} src={logo} alt={''}></img>
 
                     <ul className={"list-none ml-[500px] mt-1 " }>
-                        <li className={'inline-block mr-2 pl-1 pr-1 text-[17px] text-[#FFFFFF] pt-[5px]'}>
+                        <li className={'inline-block mr-2 pl-1 pr-1 text-[17px] text-[#FFFFFF] pt-[5px] hover:text-[#A2FF86]'}>
                             <Link to={'/'}>Home</Link>
                         </li>
-                        <li className={'inline-block mr-2  pl-1 pr-1 text-[17px] text-[#FFFFFF]'}>
+                        <li className={'inline-block mr-2  pl-1 pr-1 text-[17px] text-[#FFFFFF] hover:text-[#A2FF86]'}>
                             <Link to={'/about'}>About</Link>
                         </li>
-                        <li className={'inline-block mr-2  pl-1 pr-1 text-[17px] text-[#FFFFFF]'}>
+                        <li className={'inline-block mr-2  pl-1 pr-1 text-[17px] text-[#FFFFFF] hover:text-[#A2FF86]'}>
                             <Link to={'/contact'}>Contact</Link>
                         </li>
                     </ul>
 
-                    <button className={'border-2 font-bold text-fw-b ml-[500px] text-[15px] text-[#FFFFF] bg-green-100 pl-3 pr-3 hover:text-green-600 '} onClick={this.onClick}>Sing in</button>
+                    <button className={'border-2 font-bold text-fw-b ml-[500px] text-[15px] text-[#FFFFF] bg-green-100 pl-3 pr-3 hover:text-green-600 '} >
+                        <Link to={'/login'}>Sing in</Link></button>
                 </div>
             </>
         );

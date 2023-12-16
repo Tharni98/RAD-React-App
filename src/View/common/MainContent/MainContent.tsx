@@ -8,7 +8,7 @@ export class MainContent extends Component {
     render() {
         return (
             <>
-            <div className={"pt-80 pb-80 bg-[#FFFBF5] mx-auto "}>
+            <div className={" mx-auto "}>
                 {/*<h1 className={"text-center text-3xl text-center text-black"}>This is Main Content</h1>*/}
 
                 {/*<div className={"h-60 w-20 bg-yellow-600 text-center p-5 text-1xl text-black rotate-12 shadow-gray-900 shadow-xl hover:shadow-red-600 !cursor-pointer min-h-screen max-h-40px mx-auto"}> Height  &  Width  </div>*/}
